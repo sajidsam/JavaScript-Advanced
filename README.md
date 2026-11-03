@@ -1,5 +1,13 @@
 # JavaScript Foundations & Mastery
 
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Markdown](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)
+
 A structured, hands-on repository covering core JavaScript concepts from beginner fundamentals to advanced mechanics. Each folder contains runnable HTML and JavaScript files demonstrating specific language features, algorithms, patterns, and practical exercises.
 
 ---
@@ -20,6 +28,8 @@ A structured, hands-on repository covering core JavaScript concepts from beginne
   - [Method 1: Run with Browser / Live Server (Recommended)](#method-1-run-with-browser--live-server-recommended)
   - [Method 2: Run with Node.js](#method-2-run-with-nodejs)
 - [Key Concepts Covered](#key-concepts-covered)
+- [Author](#author)
+- [License](#license)
 
 ---
 
@@ -33,9 +43,11 @@ This repository is designed as a modular reference and practice guide for modern
 
 ```text
 Javascript/
+├── README.md
 ├── Section1 Getting Started/
 │   ├── index.html
-│   └── index.js
+│   ├── index.js
+│   └── README.md
 ├── Section2 Basics/
 │   ├── 01-variables/
 │   ├── 02-constants/
@@ -43,7 +55,8 @@ Javascript/
 │   ├── 04-Dynamic/
 │   ├── 05-objects/
 │   ├── 06-Arrays/
-│   └── 07-functions/
+│   ├── 07-functions/
+│   └── README.md
 ├── Section3 Operators/
 │   ├── 01-arithmetic-operators/
 │   ├── 02-assignment-operators/
@@ -55,7 +68,8 @@ Javascript/
 │   ├── 08-bitwise-operators/
 │   ├── 09-operator-presidence/
 │   ├── 10-quiz/
-│   └── 11-swapping-values/
+│   ├── 11-swapping-values/
+│   └── README.md
 ├── Section4 Control Flow/
 │   ├── 01-if-else/
 │   ├── 02-switch-case/
@@ -76,7 +90,8 @@ Javascript/
 │   ├── 17-sum-of-multiple/
 │   ├── 18-exercise-grade/
 │   ├── 19-stars/
-│   └── 20-prime-number/
+│   ├── 20-prime-number/
+│   └── README.md
 ├── Section5 Objects/
 │   ├── 01-basics/
 │   ├── 02-factory-functions/
@@ -97,7 +112,8 @@ Javascript/
 │   ├── 17-object-equal/
 │   ├── 18-blog-post/
 │   ├── 19-constructor-func/
-│   └── 20-price-range/
+│   ├── 20-price-range/
+│   └── README.md
 ├── Section6 Arrays/
 │   ├── 01-adding/
 │   ├── 02-find-element/
@@ -119,7 +135,8 @@ Javascript/
 │   ├── 19-move-element/
 │   ├── 20-count-occurences/
 │   ├── 21-getmax/
-│   └── 22-movies/
+│   ├── 22-movies/
+│   └── README.md
 └── Section7 Functions/
     ├── 01-function-declare/
     ├── 02-hoisting/
@@ -134,20 +151,21 @@ Javascript/
     ├── 11-changing-this/
     ├── 12-sum-of-arg/
     ├── 13-area-circle/
-    └── 14-error-handeling/
+    ├── 14-error-handeling/
+    └── README.md
 ```
 
 ---
 
 ## 📚 Curriculum Breakdown
 
-### [Section 1: Getting Started](./Section1%20Getting%20Started/)
+### [Section 1: Getting Started](./Section1%20Getting%20Started/README.md)
 Introductory environment setup, running JavaScript in the browser console and linking external script files.
 - [`Section1 Getting Started`](./Section1%20Getting%20Started/): First script execution and console output (`console.log`).
 
 ---
 
-### [Section 2: Basics](./Section2%20Basics/)
+### [Section 2: Basics](./Section2%20Basics/README.md)
 Foundational JavaScript syntax, variable declarations, and primitive vs reference types.
 
 | Folder | Description |
@@ -162,7 +180,7 @@ Foundational JavaScript syntax, variable declarations, and primitive vs referenc
 
 ---
 
-### [Section 3: Operators](./Section3%20Operators/)
+### [Section 3: Operators](./Section3%20Operators/README.md)
 Mathematical, logical, bitwise, and conditional operators.
 
 | Folder | Description |
@@ -181,7 +199,7 @@ Mathematical, logical, bitwise, and conditional operators.
 
 ---
 
-### [Section 4: Control Flow](./Section4%20Control%20Flow/)
+### [Section 4: Control Flow](./Section4%20Control%20Flow/README.md)
 Conditionals, loops, iterations, and problem-solving exercises.
 
 | Folder | Description |
@@ -209,7 +227,7 @@ Conditionals, loops, iterations, and problem-solving exercises.
 
 ---
 
-### [Section 5: Objects](./Section5%20Objects/)
+### [Section 5: Objects](./Section5%20Objects/README.md)
 Object-Oriented JavaScript, factory vs constructor functions, prototypes, references, and built-ins.
 
 | Folder | Description |
@@ -237,7 +255,7 @@ Object-Oriented JavaScript, factory vs constructor functions, prototypes, refere
 
 ---
 
-### [Section 6: Arrays](./Section6%20Arrays/)
+### [Section 6: Arrays](./Section6%20Arrays/README.md)
 Array mutations, functional transformations, filtering, searching, and algorithmic challenges.
 
 | Folder | Description |
@@ -266,7 +284,7 @@ Array mutations, functional transformations, filtering, searching, and algorithm
 
 ---
 
-### [Section 7: Functions](./Section7%20Functions/)
+### [Section 7: Functions](./Section7%20Functions/README.md)
 Function declarations vs expressions, hoisting, arguments, scopes, `this`, and error handling.
 
 | Folder | Description |
@@ -321,4 +339,19 @@ node "Section7 Functions/13-area-circle/index.js"
 - **Functional Array Methods**: `map`, `filter`, `reduce`, `find`, `findIndex`, `every`, `some`, `sort`, `slice`, `splice`.
 - **Modern ES6+ Features**: `let`/`const`, Arrow Functions, Template Literals, Rest/Spread Operators, Default Parameters, Getters/Setters.
 - **Defensive Programming**: Custom Exceptions, `try...catch`, Input validation.
+
+---
+
+## 👤 Author
+
+**Sajidul Islam**
+- GitHub: [@isajidul](https://github.com/isajidul)
+- Email: [isajidul174@gmail.com](mailto:isajidul174@gmail.com)
+
+---
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE) - see the [LICENSE](LICENSE) file for full details.
+
 
